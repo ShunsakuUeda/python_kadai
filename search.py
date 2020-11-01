@@ -11,11 +11,11 @@ def search():
     for word in sources:
         if word == input_word:
             print("{}が見つかりました".format(input_word))
-            result = 1
+            result = True
             break
         else:
             pass
-    if result == 1:
+    if result == True:
         pass
     else:
         ### 課題2
